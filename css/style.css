@@ -58,13 +58,13 @@ section {
   align-items: center;
 }
 .header__logo-img {
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   object-fit: cover;
   margin: 0 3rem 0 0;
 }
 .header__h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .home {
@@ -73,6 +73,9 @@ section {
   align-items: center;
   flex-direction: column;
   min-height: 40vh;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .home__content {
   font-size: 3.2rem;
@@ -80,13 +83,13 @@ section {
   padding-top: 6rem;
 }
 .home__img {
-  width: 95vw;
+  width: 100vw;
   height: 50vh;
-  border-radius: 4rem;
   object-fit: cover;
+  box-shadow: 0 0 4rem 2rem rgba(12, 12, 12, 0.306);
 }
 .home__content h2 {
-  font-size: 5.6rem;
+  font-size: 4.5rem;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -255,8 +258,8 @@ section {
 }
 
 .about-img img{
-  width: 60vw;
-  height: 30vh;
+  width: 70vw;
+  height: 25vh;
   object-fit: cover;
   border: white solid 2px;
   border-radius: 2rem;
@@ -567,11 +570,11 @@ section {
   html {
     font-size: 55%;
   }
-  .home-img {
+  .home__img {
     height: 30vh;
   }
   .contact input.input-x {
-  margin: 6rem 0 3rem 0;
+  margin: 3rem 0 3rem 0;
 }
   .contact input {
     margin-top: 2rem;
@@ -586,24 +589,12 @@ section {
     margin-top: 2rem;
   }
 }
-@media (max-width: 660px) {
-  .home-img img {
-    width: 25rem;
-  }
-}
+@media (max-width: 600px) {
 
+}
 @media (max-width: 450px) {
   html {
     font-size: 40%;
-  }
-  .home-img {
-    width: 70vw;
-    height: 20vh;
-  }
-
-  .home-img img {
-    padding-top: 8rem;
-    padding-bottom: 20rem;
   }
   .logo h1 {
     font-size: 4rem;
