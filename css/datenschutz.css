@@ -51,6 +51,7 @@
     align-items: center;
     width: 100vw;
     height: 12vh;
+    padding-bottom: 0;
   }
   .header__logo {
     display: flex;
