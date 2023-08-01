@@ -83,8 +83,9 @@ section {
   padding-top: 6rem;
 }
 .home__img {
-  width: 100vw;
+  width: 90vw;
   height: 50vh;
+  border-radius: 2rem;
   object-fit: cover;
   box-shadow: 0 0 4rem 2rem rgba(12, 12, 12, 0.306);
 }
@@ -233,7 +234,7 @@ section {
 .about-content p {
   font-size: 2.6rem;
   font-weight: 500;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 
 .about-content h2 {
