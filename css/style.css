@@ -20,13 +20,14 @@ html {
   overflow-x: hidden;
 }
 body {
-  background: var(--bg-color);
+  background: rgb(224, 224, 224);
   color: var(--text-color);
 }
 section {
   min-height: 50vh;
   padding: 4rem 7rem 4rem 7rem;
   width: 100%;
+  margin-left: 2rem;
 }
 .btn  {
   display: inline-block;
@@ -51,6 +52,8 @@ section {
   align-items: center;
   width: 100vw;
   height: 25vh;
+  margin-left: 2rem;
+  background: var(--bg-color); 
 }
 .header__logo {
   display: flex;
@@ -74,8 +77,9 @@ section {
   flex-direction: column;
   min-height: 40vh;
   margin: auto;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin-left: 2rem;
+  padding: 0 2.5rem 0 2.5rem; 
+  background: var(--bg-color);
 }
 .home__content {
   font-size: 3.2rem;
@@ -83,10 +87,9 @@ section {
   padding-top: 6rem;
 }
 .home__img {
-  width: 100vw;
+  width: 95vw;
   height: 55vh;
   object-fit: cover;
-  padding: 0 2.5rem 0 2.5rem;
 }
 .home__content h2 {
   font-size: 4rem;
@@ -211,6 +214,7 @@ section {
   flex-direction: column;
   background: var(--bg-color);
   text-align: center;
+  margin-left: 2rem;
   padding-bottom: 90px;
 }
 
@@ -289,6 +293,8 @@ section {
   flex-direction: column;
   text-align: center;
   padding-bottom: 90px;
+  background: var(--bg-color);
+  margin-left: 2rem;
 }
 
 .contact h2 {
