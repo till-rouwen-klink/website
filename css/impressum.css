@@ -50,7 +50,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 12vh;
+    height: 25vh;
   }
   .header__logo {
     display: flex;
@@ -86,11 +86,11 @@
     font-size: 3rem;
 }
 .impressum__h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
     margin: 0 0 2rem 0;
 }
 .impressum__h2 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   margin: 2rem 0 2rem 0;
 }
 .impressum__map {
